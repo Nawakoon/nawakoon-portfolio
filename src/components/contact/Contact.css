@@ -1,0 +1,64 @@
+.contract-page {
+    min-height: 85vh;
+    transition: var(--transition);
+}
+
+.contract.header {
+    display: flex;
+    flex-direction: column;
+    padding: 20vh 0px 40px 0px;
+}
+
+.email-link {
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.email-link:hover {
+    text-decoration: none;
+}
+
+.email-link>img {
+    position: absolute;
+    margin-top: 4px;
+    width: 20px;
+    margin-left: 10px;
+}
+
+.tooltiptext {
+    position: absolute;
+    margin-left: 220px;
+    margin-top: -23px;
+    border: 1px solid white;
+    border-radius: 7px;
+    font-size: 13px;
+    width: 65px;
+    text-align: center;
+    opacity: 0;
+    transition: var(--transition);
+}
+
+.email-link:hover .tooltiptext {
+    opacity: 1;
+}
+
+/* ----- contact list ----- */
+
+.contractList {
+    display: flex;
+    align-items: center;
+}
+
+.item:hover {
+    transform: translateY(-10px);
+}
+
+.item>img {
+    width: 40px;
+    margin-right: 30px;
+}
+
+.item.github>img {
+    width: 33px;
+    height: 33px;
+}
