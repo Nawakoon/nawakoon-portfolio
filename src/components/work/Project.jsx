@@ -24,9 +24,9 @@ const Project = () => {
         <section style={reveal} className="project-list">
             <h2>Projects</h2>
             <div className="project id1">
-                <h3>Every Game</h3>
-                <p>blockchain game hub</p>
-                <p className="tect">react, hardhat, node, AWS </p>
+                <h3>Nawakoon Portfolio</h3>
+                <p>my portfolio website</p>
+                <p className="tect">React</p>
                 <div className="button-container">
                     <a
                         className="btnProject"
@@ -40,10 +40,10 @@ const Project = () => {
                 </div>
             </div>
             <div className="project id2">
-                <h3>D-Index</h3>
-                <p>decentralize customize</p>
-                <p>investment index</p>
-                <p className="tect">react, chainlink oracle</p>
+                <h3>Loser Simulator</h3>
+                <p> mini game one-day project</p>
+
+                <p className="tect">Python</p>
                 <div className="button-container">
                     <a
                         className="btnProject--id2"
@@ -57,9 +57,9 @@ const Project = () => {
                 </div>
             </div>
             <div className="project id3">
-                <h3>Wall Hall</h3>
-                <p>art gallery</p>
-                <p className="tect">react, node, aws</p>
+                <h3>Every OOP</h3>
+                <p>study object oriented programming</p>
+                <p className="tect">Python, Java</p>
                 <div className="button-container ">
                     <a
                         className="btnProject"
